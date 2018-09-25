@@ -5,9 +5,9 @@ The password for the next level is stored in a file called readme located in the
 # Commands you may need to solve this level
 ls, cd, cat, file, du, find
 
-`bandit0@bandit:~$ ls'
+`bandit0@bandit:~$ ls`
 readme
-'bandit0@bandit:~$ cat readme'
+`bandit0@bandit:~$ cat readme`
 boJ9jbbUNNfktd78OOpsqOltutMc3MY1
  
 
