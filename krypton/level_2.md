@@ -33,3 +33,20 @@ krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ /krypton/krypton2/encrypt /etc/issue
 krypton2@melinda:/tmp/tmp.Wf2OnCpCDQ$ ls
 ciphertext  keyfile.dat
 ```
+## Solution
+```
+krypton2@krypton:/krypton/krypton2$ mktemp -d
+/tmp/tmp.4PFAsHzfT8
+krypton2@krypton:/krypton/krypton2$ cd /tmp/tmp.4PFAsHzfT8
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ ln -s /krypton/krypton2/keyfile.dat
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ echo {a..z} > example
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ cat example 
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ chmod 777 .
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ /krypton/krypton2/encrypt example 
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ cat ciphertext 
+MNOPQRSTUVWXYZABCDEFGHIJKL
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ /krypton/krypton2/encrypt /etc/krypton_pass/krypton3 
+krypton2@krypton:/tmp/tmp.4PFAsHzfT8$ cat ciphertext | tr 'M-ZA-L' 'A-Z'
+CAESARISEASY
+```
