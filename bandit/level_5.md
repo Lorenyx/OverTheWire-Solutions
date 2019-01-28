@@ -7,8 +7,8 @@ The password for the next level is stored in a file somewhere under the inhere d
 - not executable
 ## Commands you may need to solve this level
 ls, cd, cat, file, du, find
-
-> bandit5@bandit:~/inhere$ cd
+```
+bandit5@bandit:~/inhere$ cd
 bandit5@bandit:~$ cd inhere/
 bandit5@bandit:~/inhere$ ls
 maybehere00  maybehere02  maybehere04  maybehere06  maybehere08  maybehere10  maybehere12  maybehere14  maybehere16  maybehere18
@@ -17,4 +17,5 @@ bandit5@bandit:~/inhere$ find . -size 1033c -not -executable
 ./maybehere07/.file2
 bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
 DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+```
 
