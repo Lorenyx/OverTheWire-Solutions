@@ -1,4 +1,4 @@
-# Leviathan Level 0
+# Leviathan Level 0 → Level 1
 
 ## Solution
 ```
