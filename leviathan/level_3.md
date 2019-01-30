@@ -1,4 +1,4 @@
-# Narnia Level 3 → Level 4
+# Leviathan Level 3 → Level 4
 
 ## Solution
 ```
