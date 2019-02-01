@@ -8,5 +8,9 @@ For this level it may be useful to create a directory under /tmp in which you ca
 
 ## Solution
 ```
-
+bandit12@bandit:/tmp/tmp.IsbCpON3wI$ xxd -r ~/data.txt  > firstfail.file
+bandit12@bandit:/tmp/tmp.IsbCpON3wI$ ls
+firstfail.file
+bandit12@bandit:/tmp/tmp.IsbCpON3wI$ file firstfail.file 
+firstfail.file: gzip compressed data, was "data2.bin", last modified: Tue Oct 16 12:00:23 2018, max compression, from Unix
 ```
