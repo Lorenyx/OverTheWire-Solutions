@@ -1,4 +1,4 @@
-# Krypton Level 2 → Level 3
+# Krypton Level 3 → Level 4
 ## Level Info
 Well done. You’ve moved past an easy substitution cipher.
 
@@ -13,4 +13,10 @@ Enjoy.
 
 ## Solution
 ```
+krypton3@krypton:/krypton/krypton3$ cd /krypton/krypton3/
+krypton3@krypton:/krypton/krypton3$ cat krypton4 | tr "[:upper:]" "[:lower:]" | tr "qazwsxedcrfvtgbyhnujmikolp" "a-z"
+welld oneth eleve lfour passw ordis brute
 ```
+## Notes
+- I used the an online tool to find the key using subtitution and frequency analysis. https://www.guballa.de/substitution-solver
+- The password should also be in UPPERCASE. Because the key was given in lowercase I converted the text to lowercase.
