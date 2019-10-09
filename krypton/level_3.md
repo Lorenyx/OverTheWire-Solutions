@@ -18,5 +18,5 @@ krypton3@krypton:/krypton/krypton3$ cat krypton4 | tr "[:upper:]" "[:lower:]" | 
 welld oneth eleve lfour passw ordis brute
 ```
 ## Notes
-- I used the an online tool to find the key using subtitution and frequency analysis. https://www.guballa.de/substitution-solver
+- I used the an online tool to find the key using subtitution and frequency analysis. [Here](https://www.guballa.de/substitution-solver)
 - The password should also be in UPPERCASE. Because the key was given in lowercase I converted the text to lowercase.
